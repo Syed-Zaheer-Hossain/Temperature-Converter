@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="copyright">&copy; All rights reserved to Syed Zaheer Hossain.</div>
+    <div class="container">
+        <h1>Temperature converter Website</h1>
+        <div class="input">
+            Input:
+            <input type="number" id="input" placeholder="Input value" required>
+            <select name="input" id="inp-unit">
+                <option value="kelvin">Kelvin  (K)</option>
+                <option value="celcius">Celcius  (C)</option>
+                <option value="farenheit">Farenheit  (F)</option>
+            </select>
+        </div>
+        <div class="output">
+            Choose the unit to which you want to convert
+            <select name="input" id="out-unit">
+                <option value="celcius">Celcius  (C)</option>
+                <option value="kelvin">Kelvin  (K)</option>
+                <option value="farenheit">Farenheit  (F)</option>
+            </select>
+        </div>
+        <input type="text" id="output" style="text-align:center; width:50%; padding:1rem;" readonly>
+        <button id="submit">Submit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
